@@ -1,0 +1,63 @@
+{
+  "name": "John",
+  "lastName": "Doe",
+  "rrss": {
+    "enabled": true,
+    "links": {
+      "github": {
+        "enabled": false,
+        "url": "https://github.com/"
+      },
+      "linkedin": {
+        "enabled": true,
+        "url": "https://www.linkedin.com/"
+      },
+      "mail": {
+        "enabled": true,
+        "url": "mailto:testmail@test.com"
+      },
+      "behance": {
+        "enabled": true,
+        "url": "behance.net"
+      },
+      "facebook": {
+        "enabled": false,
+        "url": "http://facebook.com/"
+      },
+      "instagram": {
+        "enabled": false,
+        "url": "https://instagram.com/"
+      },
+      "dribbble": {
+        "enabled": false,
+        "url": "https://dribbble.com/"
+      }
+    }
+  },
+  "projects": [
+    {
+      "title": "Project Dummy 01",
+      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "mainImage": "/img/projects/project-thumb.jpg",
+      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
+      "slug": "project-dummy-01"
+    },
+    {
+      "title": "Project Dummy 02",
+      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "mainImage": "/img/projects/project-thumb.jpg",
+      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
+      "slug": "project-dummy-02"
+    },
+    {
+      "title": "Project Dummy 03",
+      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+      "mainImage": "/img/projects/project-thumb.jpg",
+      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
+      "slug": "project-dummy-03"
+    }
+  ]
+}

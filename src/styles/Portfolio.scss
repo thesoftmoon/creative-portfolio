@@ -1,0 +1,126 @@
+.projects {
+  margin: 50px 0 50px 0;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+
+  .project-card {
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 30px;
+
+    @media (max-width: 767.98px) {
+      margin-bottom: 30px;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .display-none {
+      animation: display-none 2s ease-out;
+
+      @keyframes display-none {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+    }
+
+    .fade-in {
+      opacity: 100% !important;
+      /* Hace que el elemento sea completamente visible */
+      pointer-events: all !important;
+    }
+
+    .card-text {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #0000004f;
+      transition: opacity 0.35s ease-in-out;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 2;
+
+      h3,
+      h4,
+      h5 {
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+
+      .info-text {
+        font-size: 13px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: #fff;
+      }
+
+      .links {
+        display: flex;
+
+        .icons {
+          margin-right: 10px;
+          color: #fff;
+          transition: 0.3s ease;
+
+          &:hover {
+            color: #a730f8;
+            transition: 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tags-and-links {
+  display: flex;
+  align-items: center;
+
+  .tags {
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    max-width: 260px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .tag {
+      background-color: #a730f8;
+      padding: 3px 10px;
+      border-radius: 35px;
+      font-size: 12px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      margin-bottom: 5px;
+    }
+  }
+}

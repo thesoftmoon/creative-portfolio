@@ -1,0 +1,25 @@
+@import 'MediaQueries';
+
+a {
+    text-decoration: none;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    img {
+        width: 65%;
+        margin: 20px 30px;
+        @include md {
+            width: 90%;
+        }
+    }
+}
