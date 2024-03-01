@@ -34,6 +34,7 @@ function ProjectPage() {
                 pcImage={projectData.mainImage}
                 moImage="/img/hero-header-home-eventoPrivado-mo.jpg"
                 sliderSize="small"
+                opacity={true}
             />
             <main>
                 <section className='project-info-container'>

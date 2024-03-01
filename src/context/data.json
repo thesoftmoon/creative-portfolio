@@ -59,5 +59,11 @@
       "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
       "slug": "project-dummy-03"
     }
-  ]
+  ],
+  "about": {
+    "heroBannerLink": "",
+    "title": "Sobre mi",
+    "shortDescription": "",
+    "longDescription": ""
+  }
 }

@@ -86,16 +86,16 @@ function Navbar() {
         {/* Desktop links Start */}
 
         <div className="navbar-links-pc d-none d-md-flex">
-          <Link className="navbar-btn" to="/">
-            Link 01
+          <Link className="navbar-btn" to="/projects">
+            Proyectos
           </Link>
 
-          <Link className="navbar-btn" to="/">
-            Link 01
+          <Link className="navbar-btn" to="/about">
+            Sobre mi
           </Link>
 
-          <Link className="navbar-btn" to="/">
-            Link 01
+          <Link className="navbar-btn" to="/contact">
+            Contacto
           </Link>
         </div>
         {data !== null && data.rrss.enabled &&

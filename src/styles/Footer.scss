@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  .rrss {
+    margin: 0 0 15px 0;
+    a {
+      color: #000;
+      transition: all 0.15s linear;
+      margin: 0 10px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .copyright {
+    font-size: 13px;
+  }
+}

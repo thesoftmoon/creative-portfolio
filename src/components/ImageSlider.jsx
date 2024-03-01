@@ -11,6 +11,9 @@ function ImageSlider(props) {
         {props.btn === true && <Link className='primary-btn' to={props.btnLink}>Ver más</Link>}
 
       </div>
+      {props.opacity == true &&
+        <div className='opacity'></div>
+      }
       <img src={props.moImage} className='img-fluid d-flex d-md-none' alt='...'></img>
       <img src={props.pcImage} className='img-fluid d-md-flex d-none' alt='...'></img>
     </div>
