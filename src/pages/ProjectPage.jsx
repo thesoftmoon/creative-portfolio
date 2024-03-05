@@ -38,7 +38,7 @@ function ProjectPage() {
                 title='Test'
                 text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laboriosam!'
                 pcImage={projectData.mainImage}
-                moImage="/img/hero-header-home-eventoPrivado-mo.jpg"
+                moImage={projectData.mainImage}
                 sliderSize="small"
                 opacity={true}
             />
