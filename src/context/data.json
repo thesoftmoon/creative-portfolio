@@ -1,6 +1,6 @@
 {
-  "name": "John",
-  "lastName": "Doe",
+  "name": "Javiera",
+  "lastName": "Roa",
   "logo": "/logo.svg",
   "mainHeaderPc": "/img/hero-headers/hero-header-home-dummy01-small-pc.jpg",
   "mainHeaderMo": "/img/hero-headers/hero-header-home-dummy01-small-mo.jpg",
@@ -39,28 +39,52 @@
   },
   "projects": [
     {
-      "title": "Project Dummy 01",
-      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "mainImage": "/img/projects/project-thumb.jpg",
-      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
-      "slug": "project-dummy-01"
+      "title": "AmorGatuno",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-amor-gatuno.jpg",
+      "otherImages": ["/img/projects/project-thumb-amor-gatuno.jpg"],
+      "slug": "amor-gatuno"
     },
     {
-      "title": "Project Dummy 02",
-      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "mainImage": "/img/projects/project-thumb.jpg",
-      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
-      "slug": "project-dummy-02"
+      "title": "Aceite de Jojoba",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-aceite-jojoba.jpg",
+      "otherImages": ["/img/projects/project-thumb-aceite-jojoba.jpg"],
+      "slug": "aceite-de-jojoba"
     },
     {
-      "title": "Project Dummy 03",
-      "shortInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "largeInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
-      "mainImage": "/img/projects/project-thumb.jpg",
-      "otherImages": ["/img/projects/project-thumb.jpg", "/img/projects/project-thumb.jpg"],
-      "slug": "project-dummy-03"
+      "title": "Fuego Pizza",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-fuego-pizza.jpg",
+      "otherImages": ["/img/projects/project-thumb-fuego-pizza.jpg"],
+      "slug": "fuego-pizza"
+    },
+    {
+      "title": "Lunatica",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-lunatica.jpg",
+      "otherImages": ["/img/projects/project-thumb-lunatica.jpg"],
+      "slug": "lunatica"
+    },
+    {
+      "title": "Magna",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-magna.jpg",
+      "otherImages": ["/img/projects/project-thumb-magna.jpg"],
+      "slug": "magna"
+    },
+    {
+      "title": "Rebel Tracks",
+      "shortInfo": "Lorem ipsum",
+      "largeInfo": "Lorem ipsum",
+      "mainImage": "/img/projects/project-thumb-rebel-tracks.jpg",
+      "otherImages": ["/img/projects/project-thumb-rebel-tracks.jpg"],
+      "slug": "rebel-tracks"
     }
   ],
   "projectsPage": {
