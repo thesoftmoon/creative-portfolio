@@ -6,24 +6,27 @@ import ImageSlider from '../components/ImageSlider'
 
 function AboutPage() {
   const { data } = useContext(DataContext);
+
+  if (!data) {
+    return <p>Cargando...</p>
+  }
+  
   return (
     <Layout>
       <ImageSlider
-        title='Test'
-        text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laboriosam!'
-        pcImage="/img/hero-headers/hero-header-home-dummy01-small-pc.jpg"
-        moImage="/img/hero-headers/hero-header-home-dummy01-small-mo.jpg"
+        title={data.aboutPage.title}
+        text={data.aboutPage.title}
+        pcImage={data.mainHeaderPc}
+        moImage={data.mainHeaderMo}
         sliderSize="small"
         opacity={true}
       />
       <main className='about'>
         <section>
-          <img className='avatar' src="/img/profile-picture.jpg" alt="" />
+          <img className='avatar' src={data.aboutPage.avatarImg} alt={data.aboutPage.title} />
           <div className="main-txt">
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis explicabo omnis cupiditate animi totam nostrum a provident cumque recusandae? Aperiam, fugiat! Accusamus temporibus aperiam, labore doloribus sit cupiditate voluptas!
-            </p>
+            <h1>{data.aboutPage.infoTextTitle}</h1>
+            <p>{data.aboutPage.infoText}</p>
           </div>
         </section>
       </main>

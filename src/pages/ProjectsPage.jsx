@@ -7,13 +7,18 @@ import Portfolio from '../components/Portfolio'
 
 function ProjectsPage() {
   const { data } = useContext(DataContext);
+
+  if (!data) {
+    return <p>Cargando...</p>
+  }
+
   return (
     <Layout>
       <ImageSlider
-        title='Test'
-        text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laboriosam!'
-        pcImage="/img/hero-headers/hero-header-home-dummy01-small-pc.jpg"
-        moImage="/img/hero-headers/hero-header-home-dummy01-small-mo.jpg"
+        title={data.projectsPage.title}
+        text={data.projectsPage.title}
+        pcImage={data.mainHeaderPc}
+        moImage={data.mainHeaderMo}
         sliderSize="small"
         opacity={true}
       />

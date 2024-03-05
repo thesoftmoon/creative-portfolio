@@ -1,6 +1,8 @@
 {
   "name": "John",
   "lastName": "Doe",
+  "mainHeaderPc": "/img/hero-headers/hero-header-home-dummy01-small-pc.jpg",
+  "mainHeaderMo": "/img/hero-headers/hero-header-home-dummy01-small-mo.jpg",
   "rrss": {
     "enabled": true,
     "links": {
@@ -60,10 +62,24 @@
       "slug": "project-dummy-03"
     }
   ],
-  "about": {
-    "heroBannerLink": "",
-    "title": "Sobre mi",
-    "shortDescription": "",
-    "longDescription": ""
+  "projectsPage": {
+    "title": "Contact page",
+    "subTitle": "Subtitle text",
+    "infoTextTitle": "Info title text",
+    "infoText": "Info text",
+    "avatarImg": "/img/profile-picture.jpg"
+  },
+  "aboutPage": {
+    "title": "Contact page",
+    "subTitle": "Subtitle text",
+    "infoTextTitle": "Info title text",
+    "infoText": "Info text",
+    "avatarImg": "/img/profile-picture.jpg"
+  },
+  "contactPage": {
+    "title": "Contact page",
+    "subTitle": "Subtitle text",
+    "infoTextTitle": "Info title text",
+    "infoText": "Info text"
   }
 }
