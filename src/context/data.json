@@ -1,6 +1,7 @@
 {
   "name": "John",
   "lastName": "Doe",
+  "logo": "/logo.svg",
   "mainHeaderPc": "/img/hero-headers/hero-header-home-dummy01-small-pc.jpg",
   "mainHeaderMo": "/img/hero-headers/hero-header-home-dummy01-small-mo.jpg",
   "rrss": {
@@ -63,21 +64,21 @@
     }
   ],
   "projectsPage": {
-    "title": "Contact page",
+    "title": "Proyectos",
     "subTitle": "Subtitle text",
     "infoTextTitle": "Info title text",
     "infoText": "Info text",
     "avatarImg": "/img/profile-picture.jpg"
   },
   "aboutPage": {
-    "title": "Contact page",
+    "title": "Sobre mi",
     "subTitle": "Subtitle text",
     "infoTextTitle": "Info title text",
     "infoText": "Info text",
     "avatarImg": "/img/profile-picture.jpg"
   },
   "contactPage": {
-    "title": "Contact page",
+    "title": "Contacto",
     "subTitle": "Subtitle text",
     "infoTextTitle": "Info title text",
     "infoText": "Info text"

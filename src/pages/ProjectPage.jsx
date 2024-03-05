@@ -18,6 +18,12 @@ function ProjectPage() {
         }
     }, [data, elementId])
 
+    useEffect(() => {
+        if (projectData) {
+            document.title = `${projectData.title} | ${data.name} ${data.lastName}`;
+        }
+    }, [projectData]);
+
     if (loading) {
         return <p>Cargando...</p>;
     }

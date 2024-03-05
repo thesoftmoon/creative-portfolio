@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { DataContext } from '../context/DataContext';
 import Layout from '../layout/Layout';
 import ImageSlider from '../components/ImageSlider';
@@ -6,6 +6,12 @@ import ImageSlider from '../components/ImageSlider';
 
 function contactPagePage() {
     const { data } = useContext(DataContext);
+
+    useEffect(() => {
+        if (data) {
+            document.title = `${data.contactPage.title} | ${data.name} ${data.lastName}`;
+        }
+    }, [data]);
 
     if (!data) {
         return <p>Cargando...</p>
