@@ -22,7 +22,7 @@ function ProjectsPage() {
     <Layout>
       <ImageSlider
         title={data.projectsPage.title}
-        text={data.projectsPage.title}
+        text={data.projectsPage.subTitle}
         pcImage={data.mainHeaderPc}
         moImage={data.mainHeaderMo}
         sliderSize="small"

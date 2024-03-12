@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 function Portfolio() {
 
   const { data } = useContext(DataContext);
-  const mainTitle = "Projects";
   const [isHovering, setIsHovering] = useState(data);
 
   const handleMouseOver = (index) => {
@@ -27,11 +26,12 @@ function Portfolio() {
 
   return (
     <div id="projects" className="projects" data-aos='fade-left'>
-      <div className="row">
-        <div className="col-12 text-center title">
-          <h1>{mainTitle}</h1>
-        </div>
-      </div>
+      <main>
+        <section className="project-info-container">
+          <h1>{data.projectsPage.infoTextTitle}</h1>
+          <p>{data.projectsPage.infoText}</p>
+        </section>
+      </main>
       <div className="row d-flex justify-content-between">
 
         {

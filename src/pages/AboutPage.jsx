@@ -21,7 +21,7 @@ function AboutPage() {
     <Layout>
       <ImageSlider
         title={data.aboutPage.title}
-        text={data.aboutPage.title}
+        text={data.aboutPage.subTitle}
         pcImage={data.mainHeaderPc}
         moImage={data.mainHeaderMo}
         sliderSize="small"

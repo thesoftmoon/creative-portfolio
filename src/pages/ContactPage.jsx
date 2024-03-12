@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import { DataContext } from '../context/DataContext';
 import Layout from '../layout/Layout';
 import ImageSlider from '../components/ImageSlider';
+import { Link } from 'react-router-dom';
 
 
 function contactPagePage() {
@@ -32,6 +33,7 @@ function contactPagePage() {
                     <div className="main-txt">
                         <h1>{data.contactPage.infoTextTitle}</h1>
                         <p>{data.contactPage.infoText}</p>
+                        <Link className='primary-btn' to={data.rrss.links.mail.url}>Contactame </Link>
                     </div>
                 </section>
             </main>

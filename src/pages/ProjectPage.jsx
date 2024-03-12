@@ -35,8 +35,8 @@ function ProjectPage() {
     return (
         <Layout>
             <ImageSlider
-                title='Test'
-                text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laboriosam!'
+                title={projectData.title}
+                text={projectData.shortInfo}
                 pcImage={projectData.mainImage}
                 moImage={projectData.mainImage}
                 sliderSize="small"
@@ -44,7 +44,7 @@ function ProjectPage() {
             />
             <main>
                 <section className='project-info-container'>
-                    <h1>{projectData.title}</h1>
+                    <h2>{projectData.subTitle}</h2>
                     <p>{projectData.largeInfo}</p>
                     {projectData.otherImages && (
                         projectData.otherImages.map((image, index) => (

@@ -1,9 +1,11 @@
 {
   "name": "Javiera",
   "lastName": "Roa",
+  "title": "Javiera Roa | UI/UX Designer",
+  "subTitle": "Experimentada fotógrafa y diseñadora gráfica, comprometida y motivada.",
   "logo": "/logo.svg",
-  "mainHeaderPc": "/img/hero-headers/hero-header-home-dummy01-small-pc.jpg",
-  "mainHeaderMo": "/img/hero-headers/hero-header-home-dummy01-small-mo.jpg",
+  "mainHeaderPc": "/img/hero-headers/hero-header-home-small-pc.jpg",
+  "mainHeaderMo": "/img/hero-headers/hero-header-home-small-mo.jpg",
   "rrss": {
     "enabled": true,
     "links": {
@@ -13,7 +15,7 @@
       },
       "linkedin": {
         "enabled": true,
-        "url": "https://www.linkedin.com/"
+        "url": "https://linkedin.com/"
       },
       "mail": {
         "enabled": true,
@@ -21,11 +23,11 @@
       },
       "behance": {
         "enabled": true,
-        "url": "behance.net"
+        "url": "https://behance.net/"
       },
       "facebook": {
         "enabled": false,
-        "url": "http://facebook.com/"
+        "url": "https://facebook.com/"
       },
       "instagram": {
         "enabled": false,
@@ -40,71 +42,77 @@
   "projects": [
     {
       "title": "AmorGatuno",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Adopción Felina Ágil",
+      "shortInfo": "Diseño UX/UI para adopciones gatunas en Santiago, Chile.",
+      "largeInfo": "Completo trabajo de Diseño UX-UI creando flujo para página web adaptable de una fundación de gatos en Santiago, Chile. El objetivo principal era que el usuarque quiere adoptar un gato encontrara en un solo lugar toda la información del animal y así estar seguro para enviar formulario de solicitud de adopción.",
       "mainImage": "/img/projects/project-thumb-amor-gatuno.jpg",
-      "otherImages": ["/img/projects/project-thumb-amor-gatuno.jpg"],
+      "otherImages": ["/img/projects/project-thumb-amor-gatuno.jpg", "/img/projects/project-thumb-amor-gatuno-2.jpg"],
       "slug": "amor-gatuno"
     },
     {
       "title": "Aceite de Jojoba",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Simpleza Orgánica Sostenible",
+      "shortInfo": "Cosméticos naturales con aceite de Jojoba, eco-friendly y simple.",
+      "largeInfo": "Para estos cosméticos en base a Aceite de Jojoba se buscaba transmitir la simpleza y lo orgánico del producto. Por esta razón se diseña en base a una cartulina reciclada.",
       "mainImage": "/img/projects/project-thumb-aceite-jojoba.jpg",
-      "otherImages": ["/img/projects/project-thumb-aceite-jojoba.jpg"],
+      "otherImages": ["/img/projects/project-thumb-aceite-jojoba.jpg", "/img/projects/project-thumb-aceite-jojoba-2.jpg"],
       "slug": "aceite-de-jojoba"
     },
     {
       "title": "Fuego Pizza",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Estilo Pizzero Juvenil",
+      "shortInfo": "Logo y diseño de carta para nueva pizzería.",
+      "largeInfo": "Creación de logo fresco y juvenil para pizzería emergente. Además del diseño de su carta y otros.",
       "mainImage": "/img/projects/project-thumb-fuego-pizza.jpg",
-      "otherImages": ["/img/projects/project-thumb-fuego-pizza.jpg"],
+      "otherImages": ["/img/projects/project-thumb-fuego-pizza.jpg", "/img/projects/project-thumb-fuego-pizza-2.jpg"],
       "slug": "fuego-pizza"
     },
     {
       "title": "Lunatica",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Elegancia Natural Luminosa",
+      "shortInfo": "Logo para cosméticos y piedras preciosas, fusionando belleza natural.",
+      "largeInfo": "Creación de logo para emprendimiento de cosméticos naturales y piedras preciosas.",
       "mainImage": "/img/projects/project-thumb-lunatica.jpg",
-      "otherImages": ["/img/projects/project-thumb-lunatica.jpg"],
+      "otherImages": ["/img/projects/project-thumb-lunatica.jpg", "/img/projects/project-thumb-lunatica-2.jpg"],
       "slug": "lunatica"
     },
     {
       "title": "Magna",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Exportación Brillante Exclusiva",
+      "shortInfo": "Diseño destacado para exportadora líder de cerezas chilenas a China.",
+      "largeInfo": "Magna es una de las empresas más grandes que exporta cerezas de Chile a China. Querían un diseño simple pero que se destacara de la competencia, esto se logró jugando con las terminaciones de barniz y pet metalizado, logrando así ser reconocida en el mercado chino como ‘’el lingote de oro’’.",
       "mainImage": "/img/projects/project-thumb-magna.jpg",
-      "otherImages": ["/img/projects/project-thumb-magna.jpg"],
+      "otherImages": ["/img/projects/project-thumb-magna.jpg", "/img/projects/project-thumb-magna-2.jpg"],
       "slug": "magna"
     },
     {
       "title": "Rebel Tracks",
-      "shortInfo": "Lorem ipsum",
-      "largeInfo": "Lorem ipsum",
+      "subTitle": "Pre-Orden Musical Eficiente",
+      "shortInfo": "App UX/UI para pre-ordenar discos de bandas favoritas rápidamente.",
+      "largeInfo": "Completo trabajo de Diseño UX-UI para la creación de una app que te permita pre ordenar discos de tus bandas favoritas en poco tiempo y de manera simple. RebelTracks está pensada para los seguidores de bandas que desean escuchar discos antes que los demás.",
       "mainImage": "/img/projects/project-thumb-rebel-tracks.jpg",
-      "otherImages": ["/img/projects/project-thumb-rebel-tracks.jpg"],
+      "otherImages": ["/img/projects/project-thumb-rebel-tracks.jpg", "/img/projects/project-thumb-rebel-tracks-2.jpg"],
       "slug": "rebel-tracks"
     }
   ],
   "projectsPage": {
     "title": "Proyectos",
-    "subTitle": "Subtitle text",
-    "infoTextTitle": "Info title text",
-    "infoText": "Info text",
+    "subTitle": "Desarrollando cada proyecto con pasión y creatividad, siempre adelante.",
+    "infoTextTitle": "Proyectos destacados",
+    "infoText": "Con 6 años de experiencia, soy fotógrafa y diseñadora autodidacta. Comprometida y motivada, ofrezco lo mejor en cada proyecto con enfoque creativo y dedicación.",
     "avatarImg": "/img/profile-picture.jpg"
   },
   "aboutPage": {
     "title": "Sobre mi",
-    "subTitle": "Subtitle text",
-    "infoTextTitle": "Info title text",
-    "infoText": "Info text",
+    "subTitle": "Experimentada fotógrafa y diseñadora gráfica, comprometida y motivada.",
+    "infoTextTitle": "Javiera Roa",
+    "infoText": "Fotógrafa profesional y Diseñadora Gráfica autodidacta ya con 6 años de experiencia. Mujer organizada, comprometida y con motivación, dispuesta a recibir desafíos y dar siempre lo mejor en cada uno de ellos.",
     "avatarImg": "/img/profile-picture.jpg"
   },
   "contactPage": {
     "title": "Contacto",
-    "subTitle": "Subtitle text",
-    "infoTextTitle": "Info title text",
-    "infoText": "Info text"
+    "subTitle": "Lista para colaborar en proyectos innovadores y emocionantes.",
+    "infoTextTitle": "Preparada para colaborar contigo",
+    "infoText": "¡Estoy lista para nuevos desafíos y proyectos! Como fotógrafa profesional y diseñadora gráfica autodidacta con 6 años de experiencia, estoy comprometida, organizada y motivada para ofrecer lo mejor en cada trabajo. ¡Contáctame para colaborar en tus proyectos y crear algo increíble juntos!"
   }
 }

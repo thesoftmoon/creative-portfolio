@@ -20,10 +20,10 @@ function HomePage() {
   return (
     <Layout>
       <ImageSlider
-        title='Test'
-        text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, laboriosam!'
-        pcImage="/img/hero-headers/hero-header-home-dummy01-small-pc.jpg"
-        moImage="/img/hero-headers/hero-header-home-dummy01-small-mo.jpg"
+        title={data.title}
+        text={data.subTitle}
+        pcImage={data.mainHeaderPc}
+        moImage={data.mainHeaderMo}
         sliderSize="small"
       />
       <Portfolio />
