@@ -5,7 +5,7 @@ import { DataContext } from "../context/DataContext";
 
 function Navbar() {
   const [navBgColor, setNavBgColor] = useState(false);
-  const { data } = useContext(DataContext);
+  const { data }: any = useContext(DataContext);
 
   const navbarBgChange = () => {
     if (window.scrollY >= 90) {

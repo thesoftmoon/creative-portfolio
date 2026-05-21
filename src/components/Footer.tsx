@@ -6,7 +6,7 @@ import '../styles/Footer.scss';
 
 function Footer() {
 
-    const { data } = useContext(DataContext);
+    const { data }: any = useContext(DataContext);
 
     return (
         <footer className='footer'>
