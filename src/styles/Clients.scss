@@ -1,0 +1,9 @@
+.client-container {
+  img {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+}

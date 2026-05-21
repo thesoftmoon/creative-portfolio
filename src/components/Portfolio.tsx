@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Portfolio() {
 
-  const { data } = useContext(DataContext);
+  const { data }: any = useContext(DataContext);
   const mainTitle = "Projects";
   const [isHovering, setIsHovering] = useState(data);
 

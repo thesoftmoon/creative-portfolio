@@ -3,6 +3,7 @@ import { DataContext } from '../context/DataContext.jsx';
 import Layout from '../layout/Layout.jsx';
 import ImageSlider from '../components/ImageSlider.jsx';
 import Portfolio from '../components/Portfolio.jsx'
+import Clients from '../components/Clients.js';
 
 function HomePage() {
 
@@ -27,6 +28,7 @@ function HomePage() {
         sliderSize="small"
       />
       <Portfolio />
+      <Clients/>
     </Layout>
   )
 }

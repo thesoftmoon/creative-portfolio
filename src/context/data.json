@@ -63,6 +63,16 @@
       "slug": "project-dummy-03"
     }
   ],
+  "clients": [
+    {
+      "name": "Client test",
+      "logoUri": "/img/clients/dummy-logo-01.png"
+    },
+    {
+      "name": "Client test",
+      "logoUri": "/img/clients/dummy-logo-01.png"
+    }
+  ],
   "projectsPage": {
     "title": "Proyectos",
     "subTitle": "Subtitle text",
